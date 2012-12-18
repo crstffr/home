@@ -1,3 +1,5 @@
+export PS1='\h:\w/`git branch 2> /dev/null | grep -e ^* | sed -E  s/^\\\\\*\ \(.+\)$/\(\\\\\1\)/`$ '
+
 # base-files version 4.0-4
 # ~/.bashrc: executed by bash(1) for interactive shells.
 
