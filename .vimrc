@@ -5,3 +5,4 @@ set autoindent
 set expandtab
 set hlsearch
 set background=dark
+set syntax=on
